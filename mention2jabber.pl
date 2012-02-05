@@ -1,5 +1,5 @@
 use strict;
-use vars qw($VERSION %IRSSI);
+use vars qw($VERSION %IRSSI $jid $subject);
 
 # Based on fnotify <http://www.leemhuis.info/files/fnotify/>.
 # Usage:
@@ -10,8 +10,8 @@ use vars qw($VERSION %IRSSI);
 #  4. Enjoy!
 
 # Configuration
-$jid = 'foo@example.bar'
-$subject = 'mention'
+$jid = 'foo@example.bar';
+$subject = 'mention';
 
 # Logic
 
